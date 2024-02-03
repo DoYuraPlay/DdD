@@ -1,0 +1,16 @@
+print("Что сделать с файлом?")
+fael=input("Ответ:          ")
+if fael=="Открыть":
+    yu=open("Yura pragrama2.txt","r", encoding='UTF-8')
+    inta=yu.readline()
+    int2=yu.readline()
+    print(inta)
+    print(int2)
+    yu.close()
+if fael=="Изминить":
+    papa=input("")
+    papa2=input("                          ")
+    yu=open("Yura pragrama2.txt","w", encoding='UTF-8')
+    inta=yu.write(papa)
+    int2=yu.write(papa2)
+    yu.close()
